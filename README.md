@@ -5,6 +5,10 @@
 ```
 composer require cboden/ratchet
 ```
+### Create Command 
+```
+php artisan make:command
+```
 
 # Support for us
 Paypal 
