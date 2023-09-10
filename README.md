@@ -2,27 +2,28 @@
 
 ## Installation 
 ### Installation Laravel
-```php
+```bash
 composer create-project laravel\laravel TCP-Analysis-web-app
+cd TCP-Analysis-web-app
 ```
 ### Install Ratchet
-```php
+```bash
 composer require cboden/ratchet
 ```
 ### Create Command 
-```php 
+```bash 
 php artisan make:command WebServer
 ```
 ### Use WebServer
-```php
+```bash
 php artisan websocket:init
 ```
 
 ### Create Controller
-```php
+```bash
 php artisan make:controller WebSocketController
 ```
-### Use Library & Packget
+### Use Library & Packget 
 ```php
 use Ratchet\Server\IoServer;
 use Ratchet\Http\HttpServer;
@@ -45,5 +46,5 @@ use App\Http\Controllers\WebSocketController;
 
 ```
 ### Support for us
-Paypal 
-Git 
+[Paypal](https://paypal.com/)
+[Git] (https://git.com/)
