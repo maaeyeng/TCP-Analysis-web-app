@@ -1,6 +1,10 @@
 # TCP Analysis Web Application
 
 ## Installation 
+### Installation Laravel
+```php
+composer create-project laravel\laravel TCP-Analysis-web-app
+```
 ### Install Ratchet
 ```php
 composer require cboden/ratchet
