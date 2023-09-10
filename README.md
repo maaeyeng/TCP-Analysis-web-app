@@ -2,24 +2,24 @@
 
 ## Installation 
 ### Install Ratchet
-```
+```php
 composer require cboden/ratchet
 ```
 ### Create Command 
-```
+```php 
 php artisan make:command WebServer
 ```
 ### Use WebServer
-```
+```php
 php artisan websocket:init
 ```
 
 ### Create Controller
-```
-php artisan make:controller WebServerController
+```php
+php artisan make:controller WebSocketController
 ```
 ### Use Library & Packget
-```
+```php
 use Ratchet\Server\IoServer;
 use Ratchet\Http\HttpServer;
 use Ratchet\WebSocket\WsServer;
@@ -28,7 +28,7 @@ use App\Http\Controllers\WebSocketController;
 ```
 
 ### Command and function call WebSocketController 
-```
+```php
         $server = IoServer::factory(
             new HttpServer(
                 new WsServer(
