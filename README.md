@@ -46,5 +46,5 @@ use App\Http\Controllers\WebSocketController;
 
 ```
 ### Support for us
-[Paypal](https://paypal.com/maaeyeng)
+[Paypal](https://paypal.me/maaeyeng)
 [Gift](https://gift.com/)
